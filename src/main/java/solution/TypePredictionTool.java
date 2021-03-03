@@ -88,7 +88,7 @@ public class TypePredictionTool {
     }
 
     public static void printUsage() {
-        System.out.println("Usage: [pre-trained model path] [parsingFromFile.ts] [input typescript file]");
+        System.out.println("Usage: [pre-trained model path] [parsingFromFile.js] [input typescript file]");
     }
 
     public static Path generatePath(String inputPath, JavaAPI$ api, Path workDir) {
